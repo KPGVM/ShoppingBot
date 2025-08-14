@@ -184,7 +184,7 @@ async def developer_callback(query: types.CallbackQuery):
     await query.message.edit_text(
         text="Розробник боту:\n" \
               "🔗Посилання на GitHub: https://github.com/KPGVM\n" \
-              "📱Telegram для зв'язку: @ana_earabiun\n\n" \
+              "📱Telegram для зв'язку: @ana_earabiun (<b>Я НЕ ПРОДАВЕЦЬ, ЛИЦЕ РОЗРОБНИК</b>)\n\n" \
               "Буду не проти, якщо ви замовите у мене розробку бота в Telegram😇",
         reply_markup=builder.as_markup(),
         disable_web_page_preview=True
